@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fuxion Perú - Productos naturales para tu bienestar">
+    <title>Productos Naturales</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="InicioStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="main-header">
+        <div class="header-top">
+            <div class="logo">FUXION</div>
+            <form class="search-form" role="search">
+                <input type="text" placeholder="Buscar Productos" aria-label="Buscar productos" />
+                <button type="submit" aria-label="Buscar">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <div class="contact-buttons">
+                <a href="https://wa.me/903061883" target="_blank" class="contact whatsapp"
+                    aria-label="Contactar por WhatsApp">
+                    <i class="fab fa-whatsapp"></i> 903 061 883
+                </a>
+            </div>
+        </div>
+
+        <!-- Menú de navegación -->
+        <nav class="nav-menu" aria-label="Navegación principal">
+            <ul>
+                <li><a href="Inicio.html">INICIO</a></li>
+                <li><a href="nosotros/nosotros.html">NOSOTROS</a></li>
+                <li><a href="deporte/deporte.html">DEPORTE</a></li>
+                <li><a href="limpia/limpia.html">LIMPIA</a></li>
+                <li><a href="control_de_peso/cdp.html">CONTROL DE PESO</a></li>
+                <li><a href="niños/ninos.html">NIÑOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN DE PRODUCTOS -->
+    <main class="product-section">
+        <div class="carousel-container">
+            <p class="subtitulo">Fuxion Perú: Beneficios y Variedad de Productos</p>
+            <h1>Productos Fuxion más vendidos</h1>
+            <div class="carousel-wrapper">
+                <button class="arrow left" id="prevBtn" aria-label="Producto anterior">&#10094;</button>
+                <div class="carousel" id="carouselTrack">
+                    <div class="product-card" tabindex="0">
+                        <h3>PRODUCTO1</h3>
+                        <img src="img/img.png" alt="PRODUCTO1 - Control de peso" loading="lazy" />
+                        <a href="https://wa.me/903061883?text=¡Hola!%20Estoy%20interesado%20en%20el%20PRODUCTO1%20de%20Fuxion"
+                            target="_blank" class="whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Consultar
+                        </a>
+                    </div>
+                    <div class="product-card" tabindex="0">
+                        <h3>PRODUCTO2</h3>
+                        <img src="img/img.png" alt="PRODUCTO2 - Suplemento nutricional" loading="lazy" />
+                        <a href="https://wa.me/903061883?text=¡Hola!%20Estoy%20interesado%20en%20el%20PRODUCTO2%20de%20Fuxion"
+                            target="_blank" class="whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Consultar
+                        </a>
+                    </div>
+                    <div class="product-card" tabindex="0">
+                        <h3>PRODUCTO3</h3>
+                        <img src="img/img.png" alt="PRODUCTO3 - Termogénico" loading="lazy" />
+                        <a href="https://wa.me/903061883?text=¡Hola!%20Estoy%20interesado%20en%20el%20PRODUCTO3%20de%20Fuxion"
+                            target="_blank" class="whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Consultar
+                        </a>
+                    </div>
+                    <div class="product-card" tabindex="0">
+                        <h3>PRODUCTO4</h3>
+                        <img src="img/img.png" alt="PRODUCTO4 - Energizante natural" loading="lazy" />
+                        <a href="https://wa.me/903061883?text=¡Hola!%20Estoy%20interesado%20en%20el%20PRODUCTO4%20de%20Fuxion"
+                            target="_blank" class="whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Consultar
+                        </a>
+                    </div>
+                    <div class="product-card" tabindex="0">
+                        <h3>PRODUCTO5</h3>
+                        <img src="img/img.png" alt="PRODUCTO5 - Limpieza intestinal" loading="lazy" />
+                        <a href="https://wa.me/903061883?text=¡Hola!%20Estoy%20interesado%20en%20el%20PRODUCTO5%20de%20Fuxion"
+                            target="_blank" class="whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Consultar
+                        </a>
+                    </div>
+                </div>
+                <button class="arrow right" id="nextBtn" aria-label="Producto siguiente">&#10095;</button>
+            </div>
+            <div class="carousel-indicators" id="carouselIndicators"></div>
+        </div>
+    </main>
+
+    <!-- SECCIÓN DE PREGUNTAS FRECUENTES -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2>Preguntas Frecuentes</h2>
+            <p class="faq-subtitle">Encuentra respuestas a las dudas más comunes sobre nuestros productos y servicios.
+                Descubre todo lo que necesitas saber para aprovechar al máximo nuestras ofertas.</p>
+
+            <div class="faq-divider"></div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">¿Por qué elegir a Fuxion para mejorar mi salud?</h3>
+                <div class="faq-answer">
+                    <p>Fuxion ofrece productos innovadores basados en ciencia y naturaleza, formulados para apoyar tu
+                        bienestar general con ingredientes de alta calidad y biodisponibilidad.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">¿Cuál es la propuesta de Fuxion?</h3>
+                <div class="faq-answer">
+                    <p>Nuestra propuesta es combinar lo mejor de la nutrición y la tecnología para crear productos que
+                        ayuden a las personas a mantener un estilo de vida saludable de manera conveniente y deliciosa.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question">¿Por qué a los productos Fuxion se les llama nutraceúticos?</h3>
+                <div class="faq-answer">
+                    <p>Los nutraceúticos son alimentos especializados con "principios activos" extraídos de fuentes
+                        naturales que ayudan a mantener un estado de salud óptimo en las personas. Estos elementos son
+                        aislados por Fuxion® del resto del alimento para concentrarlos y combinarlos en formulaciones
+                        únicas que incorporan lo más beneficioso, sano y seguro para el organismo, ofreciéndolos en
+                        forma de deliciosos refrescos, batidos, sopas y tés.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">FUXION</div>
+                <p class="footer-slogan">Nutrición inteligente para tu bienestar</p>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.tiktok.com/@fuxion" target="_blank" rel="noopener noreferrer" class="social-link"
+                    aria-label="Síguenos en TikTok">
+                    <i class="fab fa-tiktok" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/fuxion" target="_blank" rel="noopener noreferrer" class="social-link"
+                    aria-label="Síguenos en Instagram">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://wa.me/51903061883" target="_blank" rel="noopener noreferrer" class="social-link"
+                    aria-label="Contáctanos por WhatsApp">
+                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Fuxion Perú. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="InicioJs.js" defer></script>
+</body>
+
+</html>
